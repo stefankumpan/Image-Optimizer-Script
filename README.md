@@ -12,10 +12,11 @@ Python Image Optimizer Script
 - Copy the images to the input directory 
 - Open the console and type 
 
-    
-    python3 main.py 
-    or
-    python main.py
+
+
+       python3 main.py 
+       or
+       python main.py 
 
 The optimized images are then located in the output directory	
 
