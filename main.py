@@ -1,13 +1,16 @@
 from PIL import Image
 import os
-# Image Optimizer Script for Web - Stefan
+
 
 
 Input_Path = './input/'
 Output_Path = './output/'
 Quality = 60
+# Sizes = [
+#     1920,1440, 1200, 1024, 800, 600,300
+# ]
 Sizes = [
-    1920,1440, 1200, 1024, 800, 600
+    1024, 800, 600, 300
 ]
 
 if not os.path.exists(Input_Path):

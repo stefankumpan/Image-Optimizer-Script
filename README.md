@@ -1,23 +1,45 @@
-# Image-Optimizer-Script
-Python Image Optimizer Script
+# Image-Optimizer
 
-### Download and Install 
+![GUI](./res/GUI.png)
 
-    git clone https://github.com/stefankumpan/Image-Optimizer-Script.git
-    cd Image-Optimizer-Script
-    pip install -r requirements.txt
-    
-### Optimize images
-
-- Copy the images to the input directory 
-- Open the console and type 
+## Download and Install
 
 
+```shell
+git clone https://github.com/stefankumpan/Image-Optimizer-Script.git
+```
 
-       python3 main.py 
-       or
-       python main.py 
+```shell
+cd Image-Optimizer-Script
+```
 
-The optimized images are then located in the output directory	
+```shell
+pip install -r requirements.txt
+```
+
+## GUI
+Windows:
+```shell
+python app.py
+```
+
+MacOS & Linux:
+```shell
+python3 app.py
+```
+
+## Use Script 
+Windows:
+```shell
+python main.py
+```
+
+MacOS & Linux:
+```shell
+python3 main.py
+```
+
+
+The optimized images are then located in the output directory
 
 ![ImagesSizes](./res/original_optimized.png)
